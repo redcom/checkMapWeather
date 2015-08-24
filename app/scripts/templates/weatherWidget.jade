@@ -1,0 +1,16 @@
+.img-area
+    .img-area-mask
+    img(src='#{background.pictureUrl}')
+    .img-area-front
+        span.location #{weather.place}
+        span.today #{weather.weatherDate}
+        .weather-desc
+            span #{weather.weatherDesc}
+        ul.weather-block-info
+            li
+                span.temperature #{weather.temperature}
+                    span.temperature-unit
+                        if weather.temperatureUnit=="metric"
+                            | celsius
+                        else
+                            | fahrenheit

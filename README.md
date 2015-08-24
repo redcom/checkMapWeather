@@ -1,7 +1,8 @@
-Groupon Merchant Experience Frontend Coding Challenge
+Example usage backbone with jade and react.
 =====================================================
 
-To complete our coding challenge, please follow these steps:
+This is a Groupon Challenge
+To complete our coding challenge, please foddllow these steps:
 
 Prerequisites
 -------------

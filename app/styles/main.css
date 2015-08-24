@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Groupon';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Groupon/Groupon-v2.5.eot');
+    src: url('fonts/Groupon/Groupon-v2.5.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Groupon/Groupon-v2.5.woff2') format('woff2'),
+    url('fonts/Groupon/Groupon-v2.5.woff') format('woff'),
+    url('fonts/Groupon/Groupon-v2.5.ttf') format('truetype'),
+    url('fonts/Groupon/Groupon-v2.5.svg#Groupon') format('svg')
+}
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+#mapContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer {
+    position: relative;
+    float: right;
+    text-align: center;
+    padding: 1.7em;
+    z-index: 2;
+}
+
+#logoBackbone {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display:inline-block;
+    background: url('http://www.codeforest.net/wp-content/uploads/2013/05/backbone.png') no-repeat top left;
+    background-size: 100% 100%;
+}
+#logoReact {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display:inline-block;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/React.js_logo.svg/240px-React.js_logo.svg.png') no-repeat top left;
+    background-size: 100% 100%;
+}
+
+
+#title {
+    font-weight: 500;
+}
+
+.defaultPopup {
+    background: none;
+}
