@@ -39,7 +39,7 @@ define(['backbone'], function(Backbone) {
 
         parse: function(response) {
             return {
-                place: response.name || response.sys.country,
+                place: response.name || (response.sys ? response.sys.country : "Unknown"),
                 weatherDesc: response.weather[0].description,
                 temperature: Math.ceil(response.main.temp),
                 weatherDate: response.dt
